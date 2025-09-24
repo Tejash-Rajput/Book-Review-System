@@ -18,13 +18,13 @@ A RESTful API for managing books and reviews built with Node.js, Express, and Mo
 3. **Configure environment variables:**
    - Create a `.env` file in the root directory with:
    ```env
-   JWT_SECRET=VANTE
-   DB=mongodb://127.0.0.1:27017/book_review_system
+   JWT_SECRET=YOURKEY
+   DB=YOURDB
    NODE_ENV=development
    ```
 
 4. **Start MongoDB:**
-   - Ensure MongoDB is running on `mongodb://127.0.0.1:27017`
+   - Ensure MongoDB is running on `YOURDB`
 
 ## How to Run Locally
 
