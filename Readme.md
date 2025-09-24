@@ -67,7 +67,7 @@ The application will be available at `http://localhost:3000`.
 ```bash
 curl -X POST http://localhost:3000/auth/signup \
   -H "Content-Type: application/json" \
-  -d '{"username": "johndoe", "password": "password123"}'
+  -d '{"username": "Tejash", "password": "!@#$%^"}'
 ```
 
 **Response:**
@@ -78,7 +78,7 @@ curl -X POST http://localhost:3000/auth/signup \
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
   "user": {
     "id": "64f8b1c2e4b0d8a5c3f21a7b",
-    "username": "johndoe"
+    "username": "Tejash"
   }
 }
 ```
@@ -87,7 +87,7 @@ curl -X POST http://localhost:3000/auth/signup \
 ```bash
 curl -X POST http://localhost:3000/auth/login \
   -H "Content-Type: application/json" \
-  -d '{"username": "johndoe", "password": "password123"}'
+  -d '{"username": "Tejash", "password": "!@#$%^"}'
 ```
 
 **Response:**
@@ -98,7 +98,7 @@ curl -X POST http://localhost:3000/auth/login \
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
   "user": {
     "id": "64f8b1c2e4b0d8a5c3f21a7b",
-    "username": "johndoe"
+    "username": "Tejash"
   }
 }
 ```
@@ -193,7 +193,7 @@ curl "http://localhost:3000/books/1"
         "_id": "64f8b1c2e4b0d8a5c3f21a7d",
         "user": {
           "_id": "64f8b1c2e4b0d8a5c3f21a7b",
-          "username": "johndoe"
+          "username": "Tejash"
         },
         "rating": 5,
         "comment": "Excellent book, highly recommended!",
@@ -230,7 +230,7 @@ curl -X POST http://localhost:3000/books/1/reviews \
     "_id": "64f8b1c2e4b0d8a5c3f21a7d",
     "user": {
       "_id": "64f8b1c2e4b0d8a5c3f21a7b",
-      "username": "johndoe"
+      "username": "Tejash"
     },
     "book": "64f8b1c2e4b0d8a5c3f21a7c",
     "rating": 5,
